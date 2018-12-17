@@ -1,0 +1,140 @@
+body{
+    background-color: #313F7D;
+}
+#wrapper {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    background-color: rgba(76, 75, 86, 0.68);
+    border: 1px solid #000;
+    overflow: hidden;
+    padding: 10px;
+    color: rgba(71, 56, 215, 0.71);
+}
+#header {
+    width: 900px;
+    height: 50px;
+    border-bottom: 2px solid #5A0A0A;
+    padding-bottom: 5px;
+}
+#sidebar {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    font-size: 18px;
+    border-right: 2px solid rgba(111, 15, 15, 0.85);
+    padding-top: 1px;
+}
+#sidebar ul li{
+    margin-left: 20px;
+    list-style-type: none;    
+}
+#sidebar ul li a {
+    text-decoration: none;
+    color: rgba(13, 8, 59, 0.8);
+    font-size: 25px;
+}
+#sidebar ul li a:hover{
+    color: #971fb8;
+    cursor: pinter;
+}
+#content {
+    font-size: 40px;
+    text-align: left;
+    color: #101453;
+}
+#content h2{
+    color: #000;
+    border-bottom: 1px solid #6699ff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#login {
+    width: 400px;
+    height: 300px;
+    margin: 150px auto 0px;
+    background-color: #6666ff;
+    padding: 70px;
+}
+#login form{
+    background-color: #6666ff;
+}
+#login table tr td {
+    padding: 20px;
+    font-size: 25px;
+}
+#login table tr td input[type="text"], 
+#login table tr td input[type="password"] {
+    width: 250px;
+    height: 30px;
+    line-height: 23px;
+}
+#login table tr td input[type="submit"] {
+    background-color: #081735;
+    color: #FFF;
+    float: right;
+    border: medium none;
+    font-size: 25px;
+}
+input[type=submit]{
+    cursor: pointer;
+}
+
+input.short[type='text'],
+input.short[type='password']{
+    width: 200px;
+}
+input.medium[type='text'],
+input.medium[type='password']{
+    width: 400px;
+}
+input.long[type='text'],
+input.long[type='password']{
+    width: 685px;
+}
+table.tbl1{
+    margin-top: 10px;
+}
+
+table.tbl1 tr td{
+    height: 23px;
+    line-height: 23px;
+}
+
+table.tbl2{
+    
+}
+
+table.tbl2 tr td{
+    text-align: center;
+}
+
+table.tbl2 tr, td, th {
+    padding: 2px;
+    color: rgba(16, 12, 47, 0.94);
+    font-size: 18px;
+}
+
+table.tbl2 tr th{
+    background-color: #16276B;
+    color: #ffffff;
+}
+
+table.tbl2 tr td a{
+    color: #0AB395;
+    text-decoration: none;
+}
+
+table.tbl2 tr td a:hover{
+    color: #ff3333;
+}
+.error{
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.success{
+    color: #009933;
+    font-weight: bold;
+}
